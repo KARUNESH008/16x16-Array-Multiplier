@@ -71,7 +71,7 @@ module array8(a,b,c);
      
     wire [15:0]q0,q1,q2,q3,c;
     wire [7:0]q4,temp1;
-    wire [11:0]q5,q6,temp2temp3,temp4;
+ wire [11:0]q5,q6,temp2,temp3,temp4;
      
     array4 z1(a[3:0],b[3:0],q0[15:0]);
     array4 z2(a[7:4],b[3:0],q1[15:0]);
